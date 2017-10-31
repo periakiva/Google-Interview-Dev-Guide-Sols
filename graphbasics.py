@@ -62,4 +62,4 @@ graph = {'a':['b','c'],'b':['c','d'],'c':['d'],'d':['c'],'e':['f'],'f':['c']}
 path =[]
 #print add_vertex(graph,'f','z')
 print add_edge(graph,'a','f')
-#print find_path(graph,'a','d',path)
+print find_path(graph,'a','d',path)
